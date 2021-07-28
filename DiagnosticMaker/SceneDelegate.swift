@@ -1,11 +1,12 @@
 //
-//  SceneDelegate.swift
+//  S/Users/ooeshoutarou/Desktop/Udemy-swift/DiagnosticMaker/DiagnosticMaker/SceneDelegate.swiftceneDelegate.swift
 //  DiagnosticMaker
 //
 //  Created by 大江祥太郎 on 2021/07/21.
 //
 
 import UIKit
+import FirebaseAuth
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -16,6 +17,29 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+        //現在自分のユーザーがあるかないかでページが変わる
+        if Auth.auth().currentUser?.uid != nil{
+            
+            let window = UIWindow(windowScene: scene as! UIWindowScene)
+            self.window = window
+            window.makeKeyAndVisible()
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let viewController = storyboard.instantiateViewController(identifier: "viewVC") as! ViewController
+            let navigationVC = UINavigationController(rootViewController: viewController)
+            
+            window.rootViewController = navigationVC
+            
+        }else{
+            
+            let window = UIWindow(windowScene: scene as! UIWindowScene)
+            self.window = window
+            window.makeKeyAndVisible()
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let viewController = storyboard.instantiateViewController(identifier: "loginVC")
+            let navigationVC = UINavigationController(rootViewController: viewController)
+            window.rootViewController = navigationVC
+            
+        }
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 

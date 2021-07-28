@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02B34B6281E33BE5BE441334 /* Pods_DiagnosticMakerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287319E6F1524BC4CB9A4B8D /* Pods_DiagnosticMakerTests.framework */; };
+		04D45E877FB11CB8A61B6214 /* Pods_DiagnosticMaker_DiagnosticMakerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5329FD3430A4EDFB1033F8FF /* Pods_DiagnosticMaker_DiagnosticMakerUITests.framework */; };
 		370DAA9026A808C500D89A49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA8F26A808C500D89A49 /* AppDelegate.swift */; };
 		370DAA9226A808C500D89A49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA9126A808C500D89A49 /* SceneDelegate.swift */; };
 		370DAA9426A808C500D89A49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA9326A808C500D89A49 /* ViewController.swift */; };
@@ -15,6 +17,10 @@
 		370DAA9C26A808C900D89A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370DAA9A26A808C900D89A49 /* LaunchScreen.storyboard */; };
 		370DAAA726A808C900D89A49 /* DiagnosticMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAAA626A808C900D89A49 /* DiagnosticMakerTests.swift */; };
 		370DAAB226A808CA00D89A49 /* DiagnosticMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAAB126A808CA00D89A49 /* DiagnosticMakerUITests.swift */; };
+		370DAAC126AA551600D89A49 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAAC026AA551600D89A49 /* LoginViewController.swift */; };
+		370DAAC326AA563100D89A49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 370DAAC226AA563000D89A49 /* GoogleService-Info.plist */; };
+		37CC480726B0E27A0049CE2F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CC480626B0E27A0049CE2F /* FeedViewController.swift */; };
+		A2DADBC09D901C184714D3BB /* Pods_DiagnosticMaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E27BDC7C1B01E5BFA2E844 /* Pods_DiagnosticMaker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		287319E6F1524BC4CB9A4B8D /* Pods_DiagnosticMakerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiagnosticMakerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		370DAA8C26A808C500D89A49 /* DiagnosticMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiagnosticMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		370DAA8F26A808C500D89A49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		370DAA9126A808C500D89A49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,18 @@
 		370DAAAD26A808CA00D89A49 /* DiagnosticMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiagnosticMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		370DAAB126A808CA00D89A49 /* DiagnosticMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticMakerUITests.swift; sourceTree = "<group>"; };
 		370DAAB326A808CA00D89A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		370DAAC026AA551600D89A49 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		370DAAC226AA563000D89A49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		37CC480526B0638E0049CE2F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		37CC480626B0E27A0049CE2F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		419BF1C2B369CA5AA3941558 /* Pods-DiagnosticMaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiagnosticMaker.debug.xcconfig"; path = "Target Support Files/Pods-DiagnosticMaker/Pods-DiagnosticMaker.debug.xcconfig"; sourceTree = "<group>"; };
+		5329FD3430A4EDFB1033F8FF /* Pods_DiagnosticMaker_DiagnosticMakerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiagnosticMaker_DiagnosticMakerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A198504A50ED743F84C955C2 /* Pods-DiagnosticMaker-DiagnosticMakerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiagnosticMaker-DiagnosticMakerUITests.debug.xcconfig"; path = "Target Support Files/Pods-DiagnosticMaker-DiagnosticMakerUITests/Pods-DiagnosticMaker-DiagnosticMakerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3E27BDC7C1B01E5BFA2E844 /* Pods_DiagnosticMaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiagnosticMaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D325717E5FB026B97FD18094 /* Pods-DiagnosticMaker-DiagnosticMakerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiagnosticMaker-DiagnosticMakerUITests.release.xcconfig"; path = "Target Support Files/Pods-DiagnosticMaker-DiagnosticMakerUITests/Pods-DiagnosticMaker-DiagnosticMakerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E8F51F950885AFD026512DEC /* Pods-DiagnosticMakerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiagnosticMakerTests.debug.xcconfig"; path = "Target Support Files/Pods-DiagnosticMakerTests/Pods-DiagnosticMakerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F75473E3041D913AFAF70BA0 /* Pods-DiagnosticMaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiagnosticMaker.release.xcconfig"; path = "Target Support Files/Pods-DiagnosticMaker/Pods-DiagnosticMaker.release.xcconfig"; sourceTree = "<group>"; };
+		FF5EB090FD0378DF8A050E83 /* Pods-DiagnosticMakerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiagnosticMakerTests.release.xcconfig"; path = "Target Support Files/Pods-DiagnosticMakerTests/Pods-DiagnosticMakerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2DADBC09D901C184714D3BB /* Pods_DiagnosticMaker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02B34B6281E33BE5BE441334 /* Pods_DiagnosticMakerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +91,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D45E877FB11CB8A61B6214 /* Pods_DiagnosticMaker_DiagnosticMakerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09DC8B747D24532512DB3446 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				419BF1C2B369CA5AA3941558 /* Pods-DiagnosticMaker.debug.xcconfig */,
+				F75473E3041D913AFAF70BA0 /* Pods-DiagnosticMaker.release.xcconfig */,
+				A198504A50ED743F84C955C2 /* Pods-DiagnosticMaker-DiagnosticMakerUITests.debug.xcconfig */,
+				D325717E5FB026B97FD18094 /* Pods-DiagnosticMaker-DiagnosticMakerUITests.release.xcconfig */,
+				E8F51F950885AFD026512DEC /* Pods-DiagnosticMakerTests.debug.xcconfig */,
+				FF5EB090FD0378DF8A050E83 /* Pods-DiagnosticMakerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		370DAA8326A808C500D89A49 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +118,8 @@
 				370DAAA526A808C900D89A49 /* DiagnosticMakerTests */,
 				370DAAB026A808CA00D89A49 /* DiagnosticMakerUITests */,
 				370DAA8D26A808C500D89A49 /* Products */,
+				09DC8B747D24532512DB3446 /* Pods */,
+				7CBFEEDF9D8A813C07071ABC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +138,13 @@
 			children = (
 				370DAA8F26A808C500D89A49 /* AppDelegate.swift */,
 				370DAA9126A808C500D89A49 /* SceneDelegate.swift */,
-				370DAA9326A808C500D89A49 /* ViewController.swift */,
+				370DAABF26AA54D500D89A49 /* Coontroller */,
 				370DAA9526A808C500D89A49 /* Main.storyboard */,
 				370DAA9826A808C900D89A49 /* Assets.xcassets */,
 				370DAA9A26A808C900D89A49 /* LaunchScreen.storyboard */,
 				370DAA9D26A808C900D89A49 /* Info.plist */,
+				370DAAC226AA563000D89A49 /* GoogleService-Info.plist */,
+				37CC480526B0638E0049CE2F /* README.md */,
 			);
 			path = DiagnosticMaker;
 			sourceTree = "<group>";
@@ -128,6 +167,26 @@
 			path = DiagnosticMakerUITests;
 			sourceTree = "<group>";
 		};
+		370DAABF26AA54D500D89A49 /* Coontroller */ = {
+			isa = PBXGroup;
+			children = (
+				370DAA9326A808C500D89A49 /* ViewController.swift */,
+				370DAAC026AA551600D89A49 /* LoginViewController.swift */,
+				37CC480626B0E27A0049CE2F /* FeedViewController.swift */,
+			);
+			path = Coontroller;
+			sourceTree = "<group>";
+		};
+		7CBFEEDF9D8A813C07071ABC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3E27BDC7C1B01E5BFA2E844 /* Pods_DiagnosticMaker.framework */,
+				5329FD3430A4EDFB1033F8FF /* Pods_DiagnosticMaker_DiagnosticMakerUITests.framework */,
+				287319E6F1524BC4CB9A4B8D /* Pods_DiagnosticMakerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 370DAAB626A808CA00D89A49 /* Build configuration list for PBXNativeTarget "DiagnosticMaker" */;
 			buildPhases = (
+				14B5CBC43CFEC9ED60645C41 /* [CP] Check Pods Manifest.lock */,
 				370DAA8826A808C500D89A49 /* Sources */,
 				370DAA8926A808C500D89A49 /* Frameworks */,
 				370DAA8A26A808C500D89A49 /* Resources */,
+				C862B691DF5C1529B6A81225 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 370DAAB926A808CA00D89A49 /* Build configuration list for PBXNativeTarget "DiagnosticMakerTests" */;
 			buildPhases = (
+				0AE14A136155616FCB9E520A /* [CP] Check Pods Manifest.lock */,
 				370DAA9E26A808C900D89A49 /* Sources */,
 				370DAA9F26A808C900D89A49 /* Frameworks */,
 				370DAAA026A808C900D89A49 /* Resources */,
@@ -170,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 370DAABC26A808CA00D89A49 /* Build configuration list for PBXNativeTarget "DiagnosticMakerUITests" */;
 			buildPhases = (
+				F30B3EF4EDF397B9C65DA411 /* [CP] Check Pods Manifest.lock */,
 				370DAAA926A808CA00D89A49 /* Sources */,
 				370DAAAA26A808CA00D89A49 /* Frameworks */,
 				370DAAAB26A808CA00D89A49 /* Resources */,
+				281C948D72F81C7DAF8ECDD4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +298,7 @@
 				370DAA9C26A808C900D89A49 /* LaunchScreen.storyboard in Resources */,
 				370DAA9926A808C900D89A49 /* Assets.xcassets in Resources */,
 				370DAA9726A808C500D89A49 /* Main.storyboard in Resources */,
+				370DAAC326AA563100D89A49 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +318,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AE14A136155616FCB9E520A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiagnosticMakerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14B5CBC43CFEC9ED60645C41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiagnosticMaker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		281C948D72F81C7DAF8ECDD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiagnosticMaker-DiagnosticMakerUITests/Pods-DiagnosticMaker-DiagnosticMakerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiagnosticMaker-DiagnosticMakerUITests/Pods-DiagnosticMaker-DiagnosticMakerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiagnosticMaker-DiagnosticMakerUITests/Pods-DiagnosticMaker-DiagnosticMakerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C862B691DF5C1529B6A81225 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiagnosticMaker/Pods-DiagnosticMaker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiagnosticMaker/Pods-DiagnosticMaker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiagnosticMaker/Pods-DiagnosticMaker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F30B3EF4EDF397B9C65DA411 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiagnosticMaker-DiagnosticMakerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		370DAA8826A808C500D89A49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370DAAC126AA551600D89A49 /* LoginViewController.swift in Sources */,
 				370DAA9426A808C500D89A49 /* ViewController.swift in Sources */,
+				37CC480726B0E27A0049CE2F /* FeedViewController.swift in Sources */,
 				370DAA9026A808C500D89A49 /* AppDelegate.swift in Sources */,
 				370DAA9226A808C500D89A49 /* SceneDelegate.swift in Sources */,
 			);
@@ -433,6 +603,7 @@
 		};
 		370DAAB726A808CA00D89A49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 419BF1C2B369CA5AA3941558 /* Pods-DiagnosticMaker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +623,7 @@
 		};
 		370DAAB826A808CA00D89A49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F75473E3041D913AFAF70BA0 /* Pods-DiagnosticMaker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +643,7 @@
 		};
 		370DAABA26A808CA00D89A49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F51F950885AFD026512DEC /* Pods-DiagnosticMakerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +666,7 @@
 		};
 		370DAABB26A808CA00D89A49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF5EB090FD0378DF8A050E83 /* Pods-DiagnosticMakerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +689,7 @@
 		};
 		370DAABD26A808CA00D89A49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A198504A50ED743F84C955C2 /* Pods-DiagnosticMaker-DiagnosticMakerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +710,7 @@
 		};
 		370DAABE26A808CA00D89A49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D325717E5FB026B97FD18094 /* Pods-DiagnosticMaker-DiagnosticMakerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

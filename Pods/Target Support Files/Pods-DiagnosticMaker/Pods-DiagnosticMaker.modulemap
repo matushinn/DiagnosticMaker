@@ -1,0 +1,6 @@
+framework module Pods_DiagnosticMaker {
+  umbrella header "Pods-DiagnosticMaker-umbrella.h"
+
+  export *
+  module * { export * }
+}
