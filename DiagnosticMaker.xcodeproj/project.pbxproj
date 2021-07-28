@@ -20,6 +20,9 @@
 		370DAAC126AA551600D89A49 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAAC026AA551600D89A49 /* LoginViewController.swift */; };
 		370DAAC326AA563100D89A49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 370DAAC226AA563000D89A49 /* GoogleService-Info.plist */; };
 		37CC480726B0E27A0049CE2F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CC480626B0E27A0049CE2F /* FeedViewController.swift */; };
+		37CC480A26B0E82C0049CE2F /* Feeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CC480926B0E82C0049CE2F /* Feeds.swift */; };
+		37CC480E26B0E9200049CE2F /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CC480C26B0E9200049CE2F /* FeedCell.swift */; };
+		37CC480F26B0E9200049CE2F /* FeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37CC480D26B0E9200049CE2F /* FeedCell.xib */; };
 		A2DADBC09D901C184714D3BB /* Pods_DiagnosticMaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E27BDC7C1B01E5BFA2E844 /* Pods_DiagnosticMaker.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +63,9 @@
 		370DAAC226AA563000D89A49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		37CC480526B0638E0049CE2F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		37CC480626B0E27A0049CE2F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		37CC480926B0E82C0049CE2F /* Feeds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feeds.swift; sourceTree = "<group>"; };
+		37CC480C26B0E9200049CE2F /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		37CC480D26B0E9200049CE2F /* FeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedCell.xib; sourceTree = "<group>"; };
 		419BF1C2B369CA5AA3941558 /* Pods-DiagnosticMaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiagnosticMaker.debug.xcconfig"; path = "Target Support Files/Pods-DiagnosticMaker/Pods-DiagnosticMaker.debug.xcconfig"; sourceTree = "<group>"; };
 		5329FD3430A4EDFB1033F8FF /* Pods_DiagnosticMaker_DiagnosticMakerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiagnosticMaker_DiagnosticMakerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A198504A50ED743F84C955C2 /* Pods-DiagnosticMaker-DiagnosticMakerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiagnosticMaker-DiagnosticMakerUITests.debug.xcconfig"; path = "Target Support Files/Pods-DiagnosticMaker-DiagnosticMakerUITests/Pods-DiagnosticMaker-DiagnosticMakerUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +142,8 @@
 		370DAA8E26A808C500D89A49 /* DiagnosticMaker */ = {
 			isa = PBXGroup;
 			children = (
+				37CC480B26B0E8F60049CE2F /* View */,
+				37CC480826B0E8140049CE2F /* Model */,
 				370DAA8F26A808C500D89A49 /* AppDelegate.swift */,
 				370DAA9126A808C500D89A49 /* SceneDelegate.swift */,
 				370DAABF26AA54D500D89A49 /* Coontroller */,
@@ -175,6 +183,23 @@
 				37CC480626B0E27A0049CE2F /* FeedViewController.swift */,
 			);
 			path = Coontroller;
+			sourceTree = "<group>";
+		};
+		37CC480826B0E8140049CE2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37CC480926B0E82C0049CE2F /* Feeds.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37CC480B26B0E8F60049CE2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37CC480C26B0E9200049CE2F /* FeedCell.swift */,
+				37CC480D26B0E9200049CE2F /* FeedCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		7CBFEEDF9D8A813C07071ABC /* Frameworks */ = {
@@ -299,6 +324,7 @@
 				370DAA9926A808C900D89A49 /* Assets.xcassets in Resources */,
 				370DAA9726A808C500D89A49 /* Main.storyboard in Resources */,
 				370DAAC326AA563100D89A49 /* GoogleService-Info.plist in Resources */,
+				37CC480F26B0E9200049CE2F /* FeedCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,11 +452,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37CC480E26B0E9200049CE2F /* FeedCell.swift in Sources */,
 				370DAAC126AA551600D89A49 /* LoginViewController.swift in Sources */,
 				370DAA9426A808C500D89A49 /* ViewController.swift in Sources */,
 				37CC480726B0E27A0049CE2F /* FeedViewController.swift in Sources */,
 				370DAA9026A808C500D89A49 /* AppDelegate.swift in Sources */,
 				370DAA9226A808C500D89A49 /* SceneDelegate.swift in Sources */,
+				37CC480A26B0E82C0049CE2F /* Feeds.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

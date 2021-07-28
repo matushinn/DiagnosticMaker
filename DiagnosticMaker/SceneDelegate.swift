@@ -17,16 +17,20 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        //現在自分のユーザーがあるかないかでページが変わる
+        //uidがDBの中にあるのならば？
         if Auth.auth().currentUser?.uid != nil{
             
+            //ウィンドウの初期化
             let window = UIWindow(windowScene: scene as! UIWindowScene)
             self.window = window
             window.makeKeyAndVisible()
+            
+            
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let viewController = storyboard.instantiateViewController(identifier: "viewVC") as! ViewController
+            //viewVCをnavigationのrootに設定する
             let navigationVC = UINavigationController(rootViewController: viewController)
-            
+            //windowのrootviewController(根っこ)に設定する
             window.rootViewController = navigationVC
             
         }else{

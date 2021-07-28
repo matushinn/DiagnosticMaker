@@ -8,6 +8,7 @@
 import UIKit
 import BubbleTransition
 import Firebase
+import FirebaseFirestore
 
 class FeedItem {
     
@@ -132,7 +133,7 @@ class ViewController: UIViewController,XMLParserDelegate,UIViewControllerTransit
         
         if let quote = meigenLabel.text,let userName = Auth.auth().currentUser?.uid {
             db.collection("feed").addDocument(data:
-                                                ["userName":userName,"quote":meigenLabel.text,"phtoURL":url,"createdAt":Date().timeIntervalSince1970]) { error in
+                                                ["userName":userName,"quote":meigenLabel.text!,"photoURL":url,"createdAt":Date().timeIntervalSince1970]) { error in
                 
                 if error != nil{
                     print(error.debugDescription)
@@ -152,6 +153,8 @@ class ViewController: UIViewController,XMLParserDelegate,UIViewControllerTransit
         
         do {
             try firebaseAuth.signOut()
+            
+            self.navigationController?.popViewController(animated: true)
         } catch let error as NSError {
             print(error.localizedDescription)
         }
