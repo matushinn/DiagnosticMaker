@@ -37,9 +37,6 @@ class ViewController: UIViewController,XMLParserDelegate,UIViewControllerTransit
     //nilを許容するから
     var currentElementName:String!
     
-
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -146,6 +143,9 @@ class ViewController: UIViewController,XMLParserDelegate,UIViewControllerTransit
     @IBAction func toFeedVC(_ sender: Any) {
         performSegue(withIdentifier: "feedVC", sender: nil)
     }
+    
+    
+    
     
     @IBAction func logout(_ sender: Any) {
         
