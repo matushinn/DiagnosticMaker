@@ -12,4 +12,5 @@
 * タイムラインの作り方、投稿の仕方
 
 ## 概要
-![Uploading Animated GIF-downsized (2).gif…]()
+![Animated GIF-downsized (2)](https://user-images.githubusercontent.com/44314610/129527782-d72ca849-8e39-425a-b297-f8b1e5016300.gif)
+
