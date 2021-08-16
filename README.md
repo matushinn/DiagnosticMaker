@@ -1,3 +1,4 @@
+
 # DiagnosticMaker
 
 ## 何を作るのか？
@@ -9,3 +10,6 @@
 * XMLParseの仕方
 * 可変セルの作り方
 * タイムラインの作り方、投稿の仕方
+
+## 概要
+![Uploading Animated GIF-downsized (2).gif…]()
